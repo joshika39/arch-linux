@@ -44,6 +44,5 @@ ModulePath \"/usr/lib/nvidia/xorg\"
 ModulePath \"/usr/lib/xorg/modules\"
 EndSection" >> /etc/X11/xorg.conf.d/20-nvidia.conf
 
-echo "MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)" > /etc/mkinitcpio.conf
 
 
